@@ -1,13 +1,84 @@
+let getNumbers = (function (){
+  
+  for( let i = 1; i <=10; i++){
+    
+      console.log(i);
+    }
+  }
+
+  
+)()
+
+/*
+///////
+let number = -12;
+do{
+  console.log(number);
+  number = number + 1;
+}
+ while (number <=20);
+*/
+
+
+/*
+/////////
+let num = -10;
+while ( num <=10){
+num = num +1;
+console.log (num);
+}
+*/
+
+
+/*
+//////////
+let number = -11;
+let printResult = printNumber (number);
+
+function printNumber (number){
+do{
+  number = number + 1;
+  console.log(number) ;
+ }
+ while (number <= 10 && number >= -10); 
+}
+*/
+
+
+/*
+///////////
+let getNumbers = (function (){
+  
+  for( let i = -10; i <= 10; i++ ){
+    console.log(i);
+  }
+})()
+*/
+
+
+/*
+/////////
 let printNumbers = (function (){
 
   let a = -10;
-  while (a <= 10){
+  while (a < 10){
     a++;
- return a;
+    console.log(a);
     
-  } 
+  }
 })()
+*/
 
+
+/*
+/////////
+function printNumbersByRange(start, end){
+  for (let i = start; i <= end; i++){
+    console.log(i);
+  }
+}
+printNumbersByRange(-3, 2);
+*/
 
 /*
 ////
@@ -237,73 +308,3 @@ console.log (monthName);
 */
 
 
-/*
-///////
-let number = -12;
-do{
-  console.log(number);
-  number = number + 1;
-}
- while (number <=20);
-*/
-
-
-/*
-/////////
-let num = -10;
-while ( num <=10){
-num = num +1;
-console.log (num);
-}
-*/
-
-
-/*
-//////////
-let number = -11;
-let printResult = printNumber (number);
-
-function printNumber (number){
-do{
-  number = number + 1;
-  console.log(number) ;
- }
- while (number <= 10 && number >= -10); 
-}
-*/
-
-
-/*
-///////////
-let getNumbers = (function (){
-  
-  for( let i = -10; i <= 10; i++ ){
-    console.log(i);
-  }
-})()
-*/
-
-
-/*
-/////////
-let printNumbers = (function (){
-
-  let a = -10;
-  while (a < 10){
-    a++;
-    console.log(a);
-    
-  }
-})()
-*/
-
-
-/*
-/////////
-function printNumbersByRange(start, end){
-  for (let i = start; i <= end; i++){
-    console.log(i);
-  }
-}
-printNumbersByRange(-3, 2);
-*/
