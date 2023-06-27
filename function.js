@@ -1,5 +1,29 @@
 //////Напишите ф-ю filterQdds, к-я принимает массив и возвращает новый, состоящий 
 //из нечетных значений входного массива
+
+function isEven(number) {
+    return number % 2 === 0;
+}
+
+function filterOdds(arr) {
+    const result = [];
+
+    for (let i = 0; i < arr.lenght; i++) {
+        
+        if (isEven(arr[i])) continue;
+        result.push(arr[i]);
+       
+    }
+    return result;
+}
+console.log(filterOdds([1,2,3,4,5]));
+console.log(filterOdds([1,7,4,5]));
+
+
+
+
+
+
 /*
 function filterOdds(arr) {
     const result  = [];
