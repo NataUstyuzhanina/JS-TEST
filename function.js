@@ -1,3 +1,91 @@
+//////Напишите ф-ю filterQdds, к-я принимает массив и возвращает новый, состоящий 
+//из нечетных значений входного массива
+/*
+function filterOdds(arr) {
+    const result  = [];
+     for(let i = 0; i < arr.length; i++) {
+        if (arr[i] % 2 !== 0){
+            
+            result.push(arr[i]);
+            
+        }
+     }
+     return result;
+}
+console.log(filterOdds([1,2,3,4,5]))
+console.log(filterOdds([1,7,4,5]))
+
+
+/////
+function isOdd(number) {
+    return number % 2 !== 0;
+}
+
+function filterOdds(arr) {
+    const result = [];
+    for(let i =0; i < arr.length; i++) {
+        if(isOdd(arr[i])) {
+            result.push(arr[i]);
+        }
+    }
+    return result;
+}
+console.log(filterOdds([1,2,3,4,5]))
+console.log(filterOdds([1,7,4,5]))
+
+
+////
+function isOdd(number) {
+    return number % 2 !== 0;
+}
+
+function filterOdds(arr) {
+    const result = [];
+    for(let i = 0; i < arr.length; i++) {
+        if(!isOdd(arr[i])) continue;
+        result.push(arr[i]);
+    }
+    return result;
+}
+console.log(filterOdds([1,2,3,4,5]))
+console.log(filterOdds([1,7,4,5]))
+*/
+/*
+function isEven(number) {
+    return number % 2 === 0;
+}
+
+function filterOdds(arr) {
+    const result = [];
+    for(let i = 0; i < arr.length; i++) {
+        if(isEven(arr[i])) continue;
+        result.push(arr[i]);
+    }
+    return result;
+}
+console.log(filterOdds([1,2,3,4,5]))
+console.log(filterOdds([1,7,4,5]))
+*/
+
+
+////
+/*!!!!!!!
+function isEven(number) {
+    return number % 2 === 0;
+}
+
+function filterOdds(arr){
+    let result = [];
+    for(let i = 0; i < arr.length; i++) {
+        if (isEven(arr[i])); continue
+        result.push(arr[i]);
+    }
+    return result;
+}
+console.log(filterOdds([1,2,3,4,5]))
+console.log(filterOdds([1,7,4,5]))
+*/
+
 
 
 //////Напишите ф-ю, к-я проверяет, есть ли, число в массиве или нет. 
@@ -15,7 +103,7 @@ function contains(arr, number) {
 console.log(contains([1,2,3], 3));
 console.log(contains([1,2,3], 4));
 
-
+////
 function contains(arr, number) {
     for (let i =0; i < arr.length; i++) {
         if (arr[i] === number){
@@ -82,6 +170,7 @@ function isEven(number) {
 console.log(isEven(2));
 
 
+////
 function isEven(number) {
     const result = number % 2 === 0;
     return result;
@@ -111,6 +200,8 @@ console.log(result);
 */
 
 
+
+////////////
 /*
 function getSum (a, b) { 
     let result = a + b; 
@@ -119,9 +210,10 @@ function getSum (a, b) {
 
 let sum = getSum (1, 3); 
 console.log(sum);
-/*
+*/
 
 
+//////////
 /*
 function sum(a, b) {
     let result = a + b;
@@ -132,7 +224,7 @@ function sum(a, b) {
 */
 
 
-
+/////////
 /*
 function log(text) {
     console.log(text);
