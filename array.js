@@ -15,9 +15,16 @@ const namesReversed =[];
 
 for (let i = 0; i< names.length; i++) {
     console.log(names[i], names[names.length - i -1]);
+
 }
 
-
+for (let i = 0; i < names.length/2; i++) {
+    namesReversed[i] = names[names.length -i -1]; 
+    namesReversed[names.length -i -1] = names[i];
+}
+console.log(names);
+console.log(namesReversed);
+console.log(names.reverse());
 /*
 let temps =[44,33,22,55]
 let max = temps[0];

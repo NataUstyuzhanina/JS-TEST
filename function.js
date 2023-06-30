@@ -1,6 +1,6 @@
 //////Напишите ф-ю filterQdds, к-я принимает массив и возвращает новый, состоящий 
 //из нечетных значений входного массива
-
+/*
 function isEven(number) {
     return number % 2 === 0;
 }
@@ -24,7 +24,7 @@ console.log(filterOdds([1,7,4,5]));
 
 
 
-/*
+
 function filterOdds(arr) {
     const result  = [];
      for(let i = 0; i < arr.length; i++) {
