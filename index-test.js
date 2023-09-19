@@ -1,3 +1,17 @@
+
+
+const sumContiguousArray = function(ary){
+	//get the last item
+	const lastItem = ary[ary.length - 1];
+	//Gauss's trick
+	return lastItem * (lastItem + 1) / 2;
+}
+const nums = [1,2,3,4,5];
+const sumOfArray = sumContiguousArray(nums); 
+console.log(sumOfArray)
+
+
+/*
 let getNumbers = (function (){
   
   for( let i = 1; i <=10; i++){
@@ -8,6 +22,7 @@ let getNumbers = (function (){
 
   
 )()
+*/
 
 /*
 ///////
